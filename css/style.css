@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main_menu{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+
+}
+.menu_list{
+    width: 100%;
+}
+
+.menu_item {
+    width: 100%;
+    text-align: center;
+    font-family: "Courier New", serif;
+    list-style-type: none;
+    font-size: 2vmax;
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.home{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+}
+.home_list{
+    width: 98%;
+    margin: 0.5%;
+    padding: 0 4px;
+
+}
+.home title{
+    column-rule-style: hidden;
+    width: 100%;
+    font-family: "Courier New", serif;
+    font-size: 4vmax;
+    display: block;
+    border-style: hidden;
+    outline: none;
+    border-bottom: 3px solid black;
+}
+
+.column title{
+    column-rule-style: hidden;
+    width: 100%;
+    font-family: "Courier New", serif;
+    font-size: 4vmax;
+    display: block;
+    border-style: hidden;
+    outline: none;
+    border-bottom: 3px solid black;
+
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+#column_title {
+    width: 100%;
+}
+
+.photos_nav nav{
+    width: 100%;
+
+}
+
+.photo_list{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+
+}
+.column{
+    width: 49%;
+    margin: 0.5%;
+}
+
+.column img{
+    width: 100%;
+    height: auto;
+}
+
+.column img:hover{
+    transform: scale(1.02);
+}
+
+.contact {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+}
+
+.contact_list{
+    width: 98%;
+    margin: 0.5%;
+    padding: 0 4px;
+    background-color: lightgray;
+
+}
+
+.contact title{
+    column-rule-style: hidden;
+    width: 100%;
+    color: black;
+    font-family: "Courier New", serif;
+    font-size: 4vmax;
+    display: block;
+    border-style: hidden;
+    outline: none;
+    border-bottom: 3px solid black;
+}
+
+.contact p{
+    font-family: Arial, serif;
+    font-size: 2vmax;
+    padding-bottom: 5%;
+}
+
+form{
+    width: 100%;
+}
+
+.forms_fields {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 3%;
+}
+
+.input_fields{
+    width: 100%;
+    height: 3vmax;
+    background: transparent;
+    border-style: hidden;
+    outline: none;
+    border-bottom: 3px solid grey;
+    color: black;
+    font-size: 2.5vmin;
+    padding-left: 2%;
+}
+::placeholder {
+    color: black;
+    opacity: 0.7;
+    margin-left: 20%;
+}
+
+#sub{
+    margin-bottom: 0;
+}
+
+.submit_button {
+    background-color: black;
+    color: lightgray;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 2.5% 5%;
+    text-align: center;
+    font-size: 100%;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}

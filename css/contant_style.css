@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.contact{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top:150px;
+    background-color: black;
+}
+form{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.forms_fields {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 3%;
+}
+
+.input_fields{
+    font-family: "Gabriola";
+    width: 100%;
+    background: transparent;
+    border-style: hidden;
+    outline: none;
+    border-bottom: 3px solid grey;
+    color: white;
+    font-size: 25px;
+    padding-left: 2%;
+}
+
+.info_message{
+    font-family: "Gabriola";
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: 25px;
+    padding-left: 2%;
+}
+::placeholder {
+    color: white;
+    opacity: 0.7;
+    margin-left: 20%;
+}
+
+.input_fields textarea{
+    height: 220px;
+}
+#sub{
+    margin-bottom: 0;
+}
+
+.submit_button {
+    background-color: black;
+    color: lightgray;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 2.5% 5%;
+    text-align: center;
+    font-size: 100%;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
