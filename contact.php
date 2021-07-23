@@ -15,8 +15,8 @@
 <section>
     <nav class="main_menu">
         <ul class="name_list">
-            <li><h4 class="logo">Argyro</h2></li>
-            <li><h4 class="logo last_name">Anastasiou</h3></li>
+            <li><h4 class="logo">Argyro</h4></li>
+            <li><h4 class="logo last_name">Anastasiou</h4></li>
         </ul>
         <ul class="menu_list" id="menu_list">
         <li class="menu_item"><a href="home.php">Portfolio</a></li>
