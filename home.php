@@ -18,7 +18,7 @@
             <li><h4 class="logo last_name">Anastasiou</h4></li>
         </ul>
         <ul class="menu_list" id="menu_list">
-            <li class="menu_item"><a href="home.php">Portfolio</a></li>
+            <li class="menu_item"><a href="home.php" style="font-weight:bold;">Portfolio</a></li>
             <li class="menu_item"><a href="street.php">Street</a></li>
             <li class="menu_item"><a href="travel.php">Travel</a></li>
             <li class="menu_item"><a href="portait.php">Portait</a></li>
@@ -35,7 +35,7 @@
     </nav>
     
     <ul class="full_menu_list">
-        <li class="menu_item"><a href="home.php">Portfolio</a></li>
+        <li class="menu_item"><a href="home.php"  style="font-weight:bold;">Portfolio</a></li>
         <li class="menu_item"><a href="street.php">Street</a></li>
         <li class="menu_item"><a href="travel.php">Travel</a></li>
         <li class="menu_item"><a href="portait.php">Portait</a></li>

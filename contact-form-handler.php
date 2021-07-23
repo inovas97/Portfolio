@@ -5,12 +5,12 @@
 	$subject = "message from webpage";
 	$eimailTo = "novasgiannis97@gmail.com";
 	$headers = "From: ".$eimailFrom;
-	$txt = "You have received an email from: ".$eimailFrom.".\n\n"."Message: \n\n".$message;
+	$txt = "You have received an email from: ".$eimailFrom.".\n"."Name: ".$name."\n\n"."Message: \n\n".$message;
 	session_start();
 
 	if(mail($eimailTo, $subject, $txt, $headers)){
 		#echo "Your e-mail send succesfully!";
-		$_SESSION["message"] = "Your e-mail send succesfully!";
+		$_SESSION["message"] = "Your e-mail has been sent succesfully!";
 	}
 	else{
 		$_SESSION["message"] = "Can not send your e-mail";

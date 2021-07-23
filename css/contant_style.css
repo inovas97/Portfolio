@@ -1,22 +1,28 @@
 *{
     padding: 0;
-    margin: 0;
-    background-color: black;
+    margin: 0;    
 }
-
+body{
+    height: 100%;
+    background-image: url("../main/3.jpg");
+}
 .contact{
     margin-top: auto;
     margin-bottom: auto;
     padding-top:150px;
-    background-color: black;
 }
 form{
     padding-top: 50px;
-    width: 100%;
+    padding-bottom: 50px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 10%;
 }
 
 .forms_fields {
-    width: 50%;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 3%;
@@ -30,7 +36,7 @@ form{
     outline: none;
     border-bottom: 3px solid grey;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 2%;
 }
 
@@ -69,4 +75,16 @@ form{
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    form{
+        width: 50%;        
+    }
+    
+}
+@media screen and (max-width: 564px){
+    form{
+        width: 60%;        
+    }
+    
 }

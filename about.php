@@ -22,7 +22,7 @@
             <li class="menu_item"><a href="street.php">Street</a></li>
             <li class="menu_item"><a href="travel.php">Travel</a></li>
             <li class="menu_item"><a href="portait.php">Portait</a></li>
-            <li class="menu_item"><a href="about.php">About</a></li>
+            <li class="menu_item"><a href="about.php"  style="font-weight:bold;">About</a></li>
             <li class="menu_item"><a href="contact.php">Contact</a></li>
         </ul>
         <ul class="social_list">
@@ -39,9 +39,9 @@
         <li class="menu_item"><a href="street.php">Street</a></li>
         <li class="menu_item"><a href="travel.php">Travel</a></li>
         <li class="menu_item"><a href="portait.php">Portait</a></li>
-        <li class="menu_item"><a href="about.php">About</a></li>
+        <li class="menu_item"><a href="about.php" style="font-weight:bold;">About</a></li>
         <li class="menu_item"><a href="contact.php">Contact</a></li>
     </ul>
-    
+    <script src="handler.js"></script>
 </section>
 </body>

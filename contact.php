@@ -24,7 +24,7 @@
             <li class="menu_item"><a href="travel.php">Travel</a></li>
             <li class="menu_item"><a href="portait.php">Portait</a></li>
             <li class="menu_item"><a href="about.php">About</a></li>
-            <li class="menu_item"><a href="contact.php">Contact</a></li>
+            <li class="menu_item"><a href="contact.php"  style="font-weight:bold;">Contact</a></li>
         </ul>
         <ul class="social_list">
             <li class="social_item"><a href="https://www.facebook.com/arguro.anas" target="_blank"><img class="social_image" src="facebook.png"/></a></li>
@@ -41,7 +41,7 @@
         <li class="menu_item"><a href="travel.php">Travel</a></li>
         <li class="menu_item"><a href="portait.php">Portait</a></li>
         <li class="menu_item"><a href="about.php">About</a></li>
-        <li class="menu_item"><a href="contact.php">Contact</a></li>
+        <li class="menu_item"><a href="contact.php"  style="font-weight:bold;">Contact</a></li>
     </ul>
     <div class="contact">
         <div class="contact_list">

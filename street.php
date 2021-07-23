@@ -19,7 +19,7 @@
         </ul>
         <ul class="menu_list" id="menu_list">
             <li class="menu_item"><a href="home.php">Portfolio</a></li>
-            <li class="menu_item"><a href="street.php">Street</a></li>
+            <li class="menu_item"><a href="street.php"  style="font-weight:bold;">Street</a></li>
             <li class="menu_item"><a href="travel.php">Travel</a></li>
             <li class="menu_item"><a href="portait.php">Portait</a></li>
             <li class="menu_item"><a href="about.php">About</a></li>
@@ -36,7 +36,7 @@
     
     <ul class="full_menu_list">
         <li class="menu_item"><a href="home.php">Portfolio</a></li>
-        <li class="menu_item"><a href="street.php">Street</a></li>
+        <li class="menu_item"><a href="street.php"  style="font-weight:bold;">Street</a></li>
         <li class="menu_item"><a href="travel.php">Travel</a></li>
         <li class="menu_item"><a href="portait.php">Portait</a></li>
         <li class="menu_item"><a href="about.php">About</a></li>
